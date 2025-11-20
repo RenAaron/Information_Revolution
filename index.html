@@ -5,6 +5,8 @@
         <title>Table 8's Final Project</title>
     </head>
 
+    <!-- My reference for this project: https://odditycommoddity.neocities.org/ -->
+
     <!--
         Hi! Handwritten with love by the following people:
         - Kyle Gilbert / That-One-Nerd
@@ -15,25 +17,94 @@
     -->
 
     <body>
-        <div class="left-container">
-            
-        </div>
+        <main>
+            <div class="left-container">
+                
+            </div>
 
-        <div class="center-container">
-            
-        </div>
+            <div class="center-container">
+                <div class="content-box" id="header-box">
+                    <h1>There's more than Arpa in our Net.</h1>
+                    <p>
+                        Hello fellow traveller! We represent a set of independent users in this
+                        new technological frontier. We believe the internet will grow to be a
+                        powerful thing, and we don't believe government involvement will be a net
+                        positive for its success.
+                    </p>
+                </div>
 
-        <div class="right-container">
+                <div class="content-box">
+                    <p>TODO: The rest of the argument will go here.</p>
+                    <p>Here's what needs to get done:</p>
+                    <ul>
+                        <li>
+                            Complete an argument. Doesn't have to be something you actually believe
+                            in, but don't make it obviously flawed. Our argument is that government
+                            involvement in the internet will stifle its users' independence.
+                        </li>
+                        <li>
+                            Generate assets for this project. My reference for this website is
+                            <a href="https://odditycommoddity.neocities.org/" target="_blank">this NeoCities page</a>
+                            (cool site btw). I think having colorful patterned backgrounds and
+                            obnoxious gifs are a good touch here.
+                        </li>
+                        <li>
+                            Make more content to stuff the page with. We'll leave the website to
+                            exactly one page, but it'd be cool if there's extra stuff on this page.
+                            I've already got a few things here, but there's more to do.
+                        </li>
+                    </ul>
 
-        </div>
+                    <p>
+                        We'll have to avoid merge conflicts of course. Try not to delete this box
+                        until stuff's done.
+                    </p>
+                </div>
+            </div>
+
+            <div class="right-container">
+                <div class="content-box">
+                    <!--
+                        Add your names here!
+                        And when you do, feel free to make up fake credentials.
+                        Just don't make it look too real.
+                    -->
+                    <h2>The OurpaNet Consortium</h2>
+                    <ul>
+                        <li>Dr. Kyle Gilbert H.F.C.S. B.T.L.</li> <!-- High Fructose Corn Syrup, Baiting The Liberals -->
+                    </ul>
+                </div>
+                <div class="content-box">
+                    <!-- TODO: Put icons here. -->
+                    <h2>Our Sponsors</h2>
+                    <ul>
+                        <li>Electronic Frontier Foundation</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="content-box">
+                <h3>Disclaimer</h3>
+                <p>
+                    Obviously, we didn't get paid to make this argument. The year is 2025 and we're
+                    pretty sure dial-up is a thing of the past. Take most of the things on this page
+                    with a grain of salt.
+                </p>
+            </div>
+        </footer>
     </body>
 
     <style>
         body {
-            display: flex;
-            font-family: 'Comic Sans';
-            height: 200pt;
+            background-color: white;
+            font-family: 'Comic Sans MS', 'Lato', 'Verdana';
+            line-height: 1.2;
             /* TODO: make a cool background */
+        }
+        main {
+            display: flex;
         }
 
         .left-container {
@@ -49,6 +120,28 @@
             width: 20%;
             background-color: blue;
             margin-left: 5pt;
+        }
+        footer {
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+            padding: 1pt auto;
+            margin-top: 5pt;
+        }
+        footer .content-box {
+            width: 50%;
+        }
+
+        .content-box {
+            background-color: rgba(0, 0, 0, 0.2);
+            margin: 10pt;
+            padding: 10pt;
+        }
+        .content-box h1 {
+            margin-top: 0;
+        }
+        .content-box p {
+            margin-bottom: 0;
         }
     </style>
 </html>
