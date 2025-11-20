@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    font-family: 'Comic Sans MS', 'Lato', 'Verdana';
+    line-height: 1.2;
+    /* TODO: make a cool background */
+}
+main {
+    display: flex;
+}
+
+.left-container {
+    width: 20%;
+    background-color: red;
+    margin-right: 5pt;
+}
+.center-container {
+    width: 60%;
+    background-color: green;
+}
+.right-container {
+    width: 20%;
+    background-color: blue;
+    margin-left: 5pt;
+}
+footer {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    padding: 1pt auto;
+    margin-top: 5pt;
+}
+footer .content-box {
+    width: 50%;
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 10pt;
+    padding: 10pt;
+}
+.content-box h1 {
+    margin-top: 0;
+}
+.content-box p {
+    margin-bottom: 0;
+}
