@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-color: black;
+    background-image: url("assets/back-680.gif");
     font-family: 'Comic Sans MS', 'Lato', 'Verdana';
     line-height: 1.2;
     /* TODO: make a cool background */
@@ -10,7 +11,10 @@ main {
 
 .left-container {
     width: 20%;
-    background-color: red;
+    background-image: linear-gradient(rgb(0, 81, 255), rgb(0, 0, 78));
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     margin-right: 5pt;
 }
 .center-container {
@@ -60,6 +64,5 @@ footer .content-box {
 .pixel-art:hover,
 .pixel-art-button:hover,
 .pixel-art-exp:hover {
-  transform: scale(1.2);
-  cursor: pointer;
+  transform: scale(1.6);
 }
